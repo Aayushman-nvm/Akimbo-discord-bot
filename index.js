@@ -1,6 +1,7 @@
 import { config } from "dotenv";
 import { Client, GatewayIntentBits, Events } from "discord.js";
 import { commandHandler } from "./Handlers/commandHandler.js";
+import { connectDB } from "./database.js";
 
 config();
 
@@ -13,7 +14,9 @@ const client = new Client({
 });
 
 client.once(Events.ClientReady, () => {
+  connectDB();
   console.log(`✅ Logged in as ${client.user.tag}`);
+  console.log(`DB connected`);
 });
 
 client.on(Events.MessageCreate, (message) => {
