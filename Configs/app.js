@@ -1,0 +1,1 @@
+//configures the bot and other applications, basically minimum boilerplate to trigger it
