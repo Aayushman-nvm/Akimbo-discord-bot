@@ -30,8 +30,8 @@ Make sure you have **Node.js** and **MongoDB** set up on your machine. Then foll
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/yourusername/discord-bot.git
-cd discord-bot
+git clone https://github.com/Aayushman-nvm/Akimbo-discord-bot.git
+cd Akimbo-discord-bot
 ```
 
 2. **Install dependencies**
@@ -73,4 +73,4 @@ Feel free to fork it, play with it, or open a PR!
 
 ## 📜 License
 
-**ISC** – do whatever you want, just be cool about it.
+**ISC** – Do what you want with this, just don’t forget to credit me.
